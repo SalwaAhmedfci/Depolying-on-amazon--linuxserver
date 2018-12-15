@@ -1,12 +1,20 @@
 
 IP:54.93.240.16
+
 SSH Port: 2200
+
 Host Name  : ec2-54-93-240-16.eu-central-1.compute.amazonaws.com
+pass :salwaany
 1-Now move your downloaded udacity.pem key into that folder.
+
 2-make our key secure type $ chmod 600 ~/.ssh/udacity.pem into the terminal.
+
 3-From the terminal type $ ssh -i ~/.ssh/udacity.pem ubuntu@54.93.240.16
+
 4-switch to the root user by typing sudo su -
+
 5-From the command line type $ sudo adduser grader.
+
 6-We must create a file to give the user grader superuser privileges. To do this type $ sudo nano /etc/sudoers.d/grader.
  create a new file that will be the superuser configuration for grader. When nano opens type grader ALL=(ALL:ALL)ALL anad save it .
 7-upgrading the current packages, and install new updates with these three commands:
