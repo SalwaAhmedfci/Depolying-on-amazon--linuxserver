@@ -4,7 +4,7 @@ IP:54.93.240.16
 SSH Port: 2200
 
 Host Name  : ec2-54-93-240-16.eu-central-1.compute.amazonaws.com
-pass :salwaany
+any pass is :salwa
 1-Now move your downloaded udacity.pem key into that folder.
 
 2-make our key secure type $ chmod 600 ~/.ssh/udacity.pem into the terminal.
